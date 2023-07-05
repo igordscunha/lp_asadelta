@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1{
+  font-size: 4em;
+  font-weight: 600;
+}
+
+p{
+  font-size: 1.1em;
+}
+
+
+.background-animado{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  background-image: url("/ceunuvens.jpg"), url("/ceunuvens.jpg");
+  background-repeat: repeat;
+  animation: animacaoBg 120s linear infinite;
+  animation-delay: -120s;
+}
+
+.background-animado::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-image: inherit;
+  background-repeat: repeat;
+  animation: animacaoBgSmooth 120s linear infinite;
+}
+
+.asadelta-animado {
+  animation: asaDelta ease-in-out 15s infinite;
+}
+
+@keyframes animacaoBg {
+  0% {
+    background-position-x: 0%;
+  }
+  50% {
+    background-position-x: 100%;
+  }
+  100% {
+    background-position-x: 200%;
+  }
+}
+
+@keyframes animacaoBgSmooth {
+  0% {
+    background-position-x: 0%;
+  }
+  100% {
+    background-position-x: 100%;
+  }
+}
+
+@keyframes asaDelta {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-13deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
