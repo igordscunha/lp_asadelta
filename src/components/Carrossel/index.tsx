@@ -29,19 +29,6 @@ const fotosCarrosel = [
     {imagem: '/asa-delta-4.jpg', id: 4},
     {imagem: '/asa-delta-5.jpg', id: 5},
     {imagem: '/asa-delta-6.jpg', id: 6},
-    // {imagem: 'https://www.livemoretravelmore.com/wp-content/uploads/2019/01/Voo-asa-delta-rio-de-janeiro.jpg', id: 7},
-    // {imagem: 'https://asadeltatour.com.br/wp-content/uploads/2017/03/WhatsApp-Image-2017-03-17-at-13.16.20-1080x675.jpeg', id: 8},
-    // {imagem: 'https://i.pinimg.com/originals/84/68/c9/8468c993536aced6e8380603b3d18e32.jpg', id: 9},
-    // {imagem: 'https://www.feriasbrasil.com.br/fotosfb/557906577-G.jpg', id: 10},
-    // {imagem: 'https://cdn.getyourguide.com/img/tour/5cd989c1dc17b.jpeg/148.jpg', id: 11},
-    // {imagem: 'https://s2rio.com.br/wp-content/uploads/2015/07/voo-asa-delta-rio-1024x384.jpg', id: 12},
-    // {imagem: 'https://easyflyrio.com.br/wp-content/uploads/2022/07/asa-delta-no-rio-de-janeiro-2023.jpg', id: 13},
-    // {imagem: 'https://hoteisabeiramar.com.br/wp-content/uploads/2023/01/voo-de-asa-delta-rio-de-janeiro.jpg', id: 14},
-    // {imagem: 'https://www.nattrip.com.br/wp-content/uploads/2017/02/Asa-Delta-Rio-de-Janeiro-5-2-400x300.jpg', id: 15},
-    // {imagem: 'https://asadeltatour.com.br/wp-content/uploads/2017/03/WhatsApp-Image-2017-03-17-at-13.16.20-1080x675.jpeg', id: 16},
-    // {imagem: 'https://asadeltatour.com.br/wp-content/uploads/2019/06/hang-glidind-in-rio-de-janeiro-com-assad-desde-90.jpeg', id: 17},
-    // {imagem: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/fe/db/36/sao-conrado-ao-fundo.jpg?w=1200&h=1200&s=1', id: 18},
-    // {imagem: 'https://riocentrodevoolivre.com.br/wp-content/uploads/2021/08/imagem-destaque-experiencia-asa-delta-rio-de-janeiro2.jpg', id: 19}
 ]
 
 export const Carrosel = () => {
